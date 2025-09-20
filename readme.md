@@ -21,7 +21,7 @@ It demonstrates how microservices can register themselves with a Eureka Server a
                      +-------------------+
                      |   Eureka Server   |
                      +-------------------+
-                   		    	↑       		 ↑
+                        ↑            ↑
                        	|            |
    +-------------------------+   +------------------------+
    |Employee service (Client)|   |Address service (Client)|
@@ -44,8 +44,8 @@ It demonstrates how microservices can register themselves with a Eureka Server a
 
 ```
 springboot-microservices/
-│── discoveryservice/        # Eureka Service Discovery Server
-│── employeeservice/            # First microservice (Eureka client + Feign client)
+│── discoveryservice/          # Eureka Service Discovery Server
+│── employeeservice/           # First microservice (Eureka client + Feign client)
 │── addressservice/            # Second microservice (Eureka client)
 ```
 
